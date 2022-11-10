@@ -8,5 +8,7 @@ function mooncakeSays(message) {
 
   return `${mooncake} ${message}!`;
 }
+system.out.print("this is a modification");
+
 
 module.exports.mooncakeSays = mooncakeSays;
